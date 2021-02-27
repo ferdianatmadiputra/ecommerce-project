@@ -5,15 +5,15 @@ ecommerce project with Postgres, Express, Vue, and Nodejs Stack
 ### Client Side For Customer http://kawna-shop.web.app/
 ### Client Side For Admin http://ecomm-cms-ferd.web.app/
 - admin account:
-- email: admin@mail.com
-- pass: 1234
+- email: <please ask me>
+- pass: <please ask me>
 ### Server Restful API https://e-commerce-ferd.herokuapp.com/
 - api doc available in ecommerce-cms-server folder
 
 env variable (create your own .env file in ecommerce-cms-server directory):
 ```
-JWTSECRET=secretjwt
-ADMINPASSWORD=1234
+JWTSECRET=<pls ask me>
+ADMINPASSWORD=<please ask me>
 CONFIG_DEV_USERNAME= ...fill it yourself...
 CONFIG_DEV_PASSWORD= ...fill it yourself...
 CONFIG_DEV_DATABASE= ...fill it yourself...
