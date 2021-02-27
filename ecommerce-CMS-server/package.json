@@ -1,0 +1,38 @@
+{
+  "name": "ecommerce-cms-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/http.js",
+    "test": "NODE_ENV=test&&npx jest ",
+    "dev": "NODE_ENV=development&&nodemon bin/http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferdianatmadiputra/ecommerce-CMS-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferdianatmadiputra/ecommerce-CMS-server/issues"
+  },
+  "homepage": "https://github.com/ferdianatmadiputra/ecommerce-CMS-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0",
+    "supertest": "^6.1.3"
+  }
+}
